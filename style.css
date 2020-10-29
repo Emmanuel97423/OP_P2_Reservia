@@ -62,6 +62,37 @@ header {
 .inscription a{
     color: #0065FC;
 }
+/*header recherche*/
+
+#recherche {
+    margin-top: 2em;
+}
+.submit_recherche {
+    font-family:'ralewaythin';
+    background-color: #0065FC;
+    border-style: hidden;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -0.5em;
+    padding: 15px;
+    color: white;
+
+}
+.fa-map-marker-alt{
+    padding: 13px;
+    padding-bottom: 0.95em;
+    padding-top: 0.75em;
+    background-color:grey;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: -0.1em;
+    border-style: hidden;
+    
+}
+.input_recherche {
+    padding: 12px;
+    
+}
 
 
 
