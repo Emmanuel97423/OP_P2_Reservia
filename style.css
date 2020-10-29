@@ -51,7 +51,7 @@ header {
     margin-right: 3em;    
 }
 #top_menu a {
-    color: inherit;
+    
     text-decoration: none; 
     padding-top: 3.1em;    
 }
@@ -59,7 +59,10 @@ header {
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
-.inscription a{
+.liens-menu a {
+    color: #000000;
+}
+.inscription {
     color: #0065FC;
 }
 /*header recherche*/
