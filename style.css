@@ -93,6 +93,20 @@ header {
     padding: 12px;
     
 }
+/*header filtre*/
+
+#filtres ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+#filtres li {
+    margin-right: 5em;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 30px;
+}
 
 
 
