@@ -11,9 +11,7 @@
          url('fonts/raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 body {    
     font-family: 'ralewaythin';
 }
@@ -36,6 +34,7 @@ header {
 }
 
 /*header top menu*/
+
 #top_menu {
     display: flex;
     flex-direction: column; 
@@ -65,6 +64,7 @@ header {
 .inscription {
     color: #0065FC;
 }
+
 /*header recherche*/
 
 #recherche {
@@ -79,7 +79,6 @@ header {
     margin-left: -0.5em;
     padding: 15px;
     color: white;
-
 }
 .fa-map-marker-alt{
     padding: 13px;
@@ -89,12 +88,10 @@ header {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     margin-right: -0.1em;
-    border-style: hidden;
-    
+    border-style: hidden;   
 }
 .input_recherche {
-    padding: 12px;
-    
+    padding: 12px;    
 }
 /*header filtre*/
 
@@ -128,6 +125,7 @@ header {
 }
 
 /*infos nombre de logements*/
+
 #infos_nombre_logements{
     display: flex;
     flex-direction: row;
@@ -135,9 +133,35 @@ header {
 .fa-info-circle {
     color: #0065FC;
     padding: 0.8em;
-   
- 
 }
+
+/*Corps hebergements*/
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+table {
+    background-color: #F2F2F2;
+    padding: 1em;
+}
+
+/*corps hebergements cartes*/
+
+.carte_hebergement {
+    width: 33%;
+}
+.carte_hebergement {
+
+    padding: 3em;
+    
+}
+#auberge_cannebiere {
+    background: url('/img/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+    
+}
+
 
 
 
