@@ -141,13 +141,16 @@ header {
 
 /*corps hebergement à Marseille*/
 
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 article {
     background-color: #F2F2F2;
     padding: 2em;
     width: 60%;
-    border-radius: 20px;
-    
-    
+    border-radius: 20px;    
 }
 .titre {
     background-color: white;
@@ -172,9 +175,6 @@ article {
     bottom: 0;   
     margin-bottom: initial;
 }
-
-
-
 .first-line-hebergement {
     display: flex;
     flex-direction: row;
@@ -196,17 +196,64 @@ article {
     position: relative;
     height: 200px;
     width: 280px;
-    box-shadow: 0 4px 4px #8d8987;
-   
-    
+    box-shadow: 0 4px 4px #8d8987;   
 }
-
-
-
 .cannebiere{
-    background: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
-    
+    background: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;    
 }
+
+/*Bloc les plus populaire*/
+
+#tendances{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 2em;   
+    border-radius: 20px;
+    width: 30%;
+}
+.carte_tendance {
+background-color: darkgreen;
+border-radius: 20px;
+border:5px solid white;
+position: relative;
+height: 30%;
+
+}
+
+
+.titre-tendance {
+    background-color: cyan;
+    position: absolute;
+    border-radius: 15px 0px 0px 15px;
+    height: 60px;
+     
+    margin-top: 2em;
+    font-weight: bolder;
+    margin-left: 13em;
+}
+.prix-tendance {
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+    font-size: 0.8em;
+    margin-bottom: 5em;
+    margin-left: 16.3em;
+}
+.star-tendance {    
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;   
+    margin-bottom: 1em;
+    margin-left: 13em;
+}
+
+#soleil-du-matin {
+    background: url(img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+
    
 
 
