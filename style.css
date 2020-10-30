@@ -139,5 +139,74 @@ header {
  
 }
 
+/*corps hebergement à Marseille*/
+
+article {
+    background-color: #F2F2F2;
+    padding: 2em;
+    width: 60%;
+    border-radius: 20px;
+    
+    
+}
+.titre {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: initial;
+    font-weight: bolder;
+}
+.prix {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+    font-size: 0.8em;
+}
+.star {    
+    position: absolute;
+    bottom: 0;   
+}
+
+
+
+.first-line-hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+}
+.second-line-hebergement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+}
+.carte {
+    background-color: magenta;
+    border-radius: 20px;
+    border: 5px solid white;
+    position: relative;
+    height: 200px;
+    width: 280px;
+    box-shadow: 0 4px 4px #8d8987;
+   
+    
+}
+
+
+
+.cannebiere{
+    background: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
+    
+}
+   
+
+
 
 
