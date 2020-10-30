@@ -155,7 +155,7 @@ article {
     bottom: 0;
     border-radius: 0px 0px 5px 5px;
     height: 60px;
-    width: 100%;
+    width: 93%;
     padding: 10px;
     margin-bottom: initial;
     font-weight: bolder;
@@ -165,10 +165,12 @@ article {
     bottom: 0;
     padding-bottom: 30px;
     font-size: 0.8em;
+    margin-bottom: initial;
 }
 .star {    
     position: absolute;
     bottom: 0;   
+    margin-bottom: initial;
 }
 
 
