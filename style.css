@@ -146,6 +146,20 @@ section {
     flex-direction: row;
     justify-content: space-between;
 }
+
+article img {
+    
+    overflow: hidden;
+    margin-top:auto;
+    background-size: 30%;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 20px;
+  
+    
+}
+
+
 article {
     background-color: #F2F2F2;
     padding: 2em;
@@ -190,7 +204,7 @@ article {
     position: relative;
 }
 .carte {
-    background-color: magenta;
+   
     border-radius: 20px;
     border: 5px solid white;
     position: relative;
@@ -202,7 +216,7 @@ article {
     background: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;    
 }
 
-/*Bloc les plus populaire*/
+/*Bloc les plus populaire
 
 #tendances{
     display: flex;
@@ -212,46 +226,78 @@ article {
     border-radius: 20px;
     width: 30%;
 }
+
+#tendances img {
+    overflow: hidden;
+    margin-top:auto;
+    background-size: 30%;
+    max-width: 49%;
+    max-height: auto;
+    border-radius: 20px;
+}
 .carte_tendance {
-background-color: darkgreen;
+
 border-radius: 20px;
 border:5px solid white;
 position: relative;
 height: 30%;
 
+}*/
+
+.tendances {
+    display: grid;
+    grid-template-columns: repeat 3;  
+    margin-right: 100px;
+    background-color: chartreuse;
+    padding: 20px;
+    border-radius: 20px;
+    grid-row-gap: 1em;
+    
+    
 }
-
-
+.carte_tendance {
+    background-color: tomato;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 150px;
+}
+.tendances img {
+    position: absolute;
+   
+}
 .titre-tendance {
-    background-color: cyan;
-    position: absolute;
-    border-radius: 15px 0px 0px 15px;
-    height: 60px;
-     
-    margin-top: 2em;
-    font-weight: bolder;
-    margin-left: 13em;
-}
-.prix-tendance {
-    background-color: violet;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 30px;
+    position: relative;
     font-size: 0.8em;
-    margin-bottom: 5em;
-    margin-left: 16.3em;
+    background-color: white;
+    margin-left: 200px;
+    padding-left: 10px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border-radius: 0px 10px 10px 0 ;
+    line-height: 1.6;
 }
-.star-tendance {    
-    background-color: yellow;
-    position: absolute;
-    bottom: 0;   
-    margin-bottom: 1em;
-    margin-left: 13em;
+.star-tendance {
+    padding-top: 20px;
 }
 
-#soleil-du-matin {
-    background: url(img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+
+
+.soleil-du-matin {
+    background: url(/OP_P2_Reservia/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
+    background-size: 60%;
 }
+.au-coeur-de-leau {
+    background: url(/OP_P2_Reservia/img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
+    background-size: 60%;
+}
+.bleu-et-blanc {
+    background: url(/OP_P2_Reservia/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)no-repeat;
+    background-size: 60% ;
+}
+
+
+
+
 
 
    
