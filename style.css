@@ -282,30 +282,30 @@ article {
 }
 #fort_pomegues {
     position: relative;
-    background: url(/OP_P2_Reservia/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
+    background: url(/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
     background-size: auto;
 }
 #iles_frioul {
     position: relative;
-    background: url(/OP_P2_Reservia/img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
+    background: url(/img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
     background-size: auto;
 
 }
 #calanques {
     position: relative;
-    background: url(/OP_P2_Reservia/img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
+    background: url(/img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
     background-size: auto;
 
 }
 #longchamp {
     position: relative;
-    background: url(/OP_P2_Reservia/img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
+    background: url(img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
     background-size: auto;
 
 }
 #notre_dame_de_la_Garde {
     position: relative;
-    background: url(/OP_P2_Reservia/img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background: url(/img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-size: auto;
 
 }
@@ -342,7 +342,7 @@ aside {
    
     border-radius: 20px;
 }
-.
+
 
    
 
