@@ -216,39 +216,13 @@ article {
     background: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;    
 }
 
-/*Bloc les plus populaire
-
-#tendances{
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    padding: 2em;   
-    border-radius: 20px;
-    width: 30%;
-}
-
-#tendances img {
-    overflow: hidden;
-    margin-top:auto;
-    background-size: 30%;
-    max-width: 49%;
-    max-height: auto;
-    border-radius: 20px;
-}
-.carte_tendance {
-
-border-radius: 20px;
-border:5px solid white;
-position: relative;
-height: 30%;
-
-}*/
+/*Bloc les plus populaire*/
 
 .tendances {
     display: grid;
     grid-template-columns: repeat 3;  
     margin-right: 100px;
-    background-color: chartreuse;
+    background-color:#F2F2F2;
     padding: 20px;
     border-radius: 20px;
     grid-row-gap: 1em;
@@ -256,7 +230,7 @@ height: 30%;
     
 }
 .carte_tendance {
-    background-color: tomato;
+   
     border: 5px solid white;
     border-radius: 20px;
     height: 150px;
@@ -298,7 +272,77 @@ height: 30%;
 
 
 
+/*Acitivé à Marseille images*/
 
+
+#vieux_port {
+    position: relative;
+    background: url(img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
+    background-size:   auto;
+}
+#fort_pomegues {
+    position: relative;
+    background: url(/OP_P2_Reservia/img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
+    background-size: auto;
+}
+#iles_frioul {
+    position: relative;
+    background: url(/OP_P2_Reservia/img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
+    background-size: auto;
+
+}
+#calanques {
+    position: relative;
+    background: url(/OP_P2_Reservia/img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
+    background-size: auto;
+
+}
+#longchamp {
+    position: relative;
+    background: url(/OP_P2_Reservia/img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
+    background-size: auto;
+
+}
+#notre_dame_de_la_Garde {
+    position: relative;
+    background: url(/OP_P2_Reservia/img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: auto;
+
+}
+
+/*Acitivé à Marseille GRID*/
+
+aside {
+    padding: 20px;
+   
+    background-color: aqua;
+    border-radius: 20px;
+}
+.activites{
+    display: grid;
+    background-color: tomato;
+    position: relative;
+    padding-top: 2em;
+   
+
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+.activites h3 {
+    position: relative;
+    background-color: white;
+    
+   
+    
+}
+.carte_activite {
+    background-color: violet;
+    
+   
+    border-radius: 20px;
+}
+.
 
    
 
