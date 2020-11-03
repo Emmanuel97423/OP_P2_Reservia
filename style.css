@@ -147,18 +147,6 @@ section {
     justify-content: space-between;
 }
 
-article img {
-    
-    overflow: hidden;
-    margin-top:auto;
-    background-size: 30%;
-    max-width: 100%;
-    max-height: auto;
-    border-radius: 20px;
-  
-    
-}
-
 
 article {
     background-color: #F2F2F2;
@@ -170,9 +158,9 @@ article {
     background-color: white;
     position: absolute;
     bottom: 0;
-    border-radius: 0px 0px 5px 5px;
-    height: 60px;
-    width: 93%;
+    border-radius: 0px 0px 20px 20px;
+    height: 65px;
+    width: 95%;
     padding: 10px;
     margin-bottom: initial;
     font-weight: bolder;
@@ -185,9 +173,11 @@ article {
     margin-bottom: initial;
 }
 .star {    
+    background-color: white;
     position: absolute;
     bottom: 0;   
-    margin-bottom: initial;
+   
+    
 }
 .first-line-hebergement {
     display: flex;
@@ -208,24 +198,60 @@ article {
     border-radius: 20px;
     border: 5px solid white;
     position: relative;
-    height: 200px;
-    width: 280px;
+    height: 300px;
+    width: 350px;
     box-shadow: 0 4px 4px #8d8987;   
 }
-.cannebiere{
-    background: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;    
+
+/*corps hebergement à Marseille gestion de resize images*/
+
+.cannebiere {
+    background: url(img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
+    background-size: 150%;
+    background-position-y: -4em;
+    background-position-x: -4em;
 }
+.hotel-du-port {
+    background: url(img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) no-repeat;
+    background-size: 150%;
+    background-position-y: -8em;
+    background-position-x: -4em;
+}
+.hotel-des-mouettes {
+    background: url(img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg) no-repeat;
+    background-size: 150%;
+    background-position-y: -8em;
+    background-position-x: -9em;
+}
+.hotel-de-la-mer {
+    background: url(img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg) no-repeat;
+    background-size: 100%;
+    background-position-y: -6em;
+    
+}
+.auberge-du-panier {
+    background: url(img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) no-repeat;
+    background-size: 150%;
+    background-position-y: -3em;
+}
+.hotel-chez-amina {
+    background: url(img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) no-repeat;
+    background-size: 100%;
+    background-position-y: -13em;
+}
+
 
 /*Bloc les plus populaire*/
 
 .tendances {
     display: grid;
     grid-template-columns: repeat 3;  
-    margin-right: 100px;
+    
     background-color:#F2F2F2;
     padding: 20px;
     border-radius: 20px;
-    grid-row-gap: 1em;
+    grid-row-gap: 0.5em;
+    width: 33%;
     
     
 }
@@ -234,6 +260,7 @@ article {
     border: 5px solid white;
     border-radius: 20px;
     height: 150px;
+    box-shadow: 0 4px 4px #8d8987;  
 }
 .tendances img {
     position: absolute;
@@ -241,12 +268,12 @@ article {
 }
 .titre-tendance {
     position: relative;
-    font-size: 0.8em;
+    font-size: 1em;
     background-color: white;
     margin-left: 200px;
     padding-left: 10px;
     padding-top: 45px;
-    padding-bottom: 30px;
+    padding-bottom: 0.8em;
     border-radius: 0px 10px 10px 0 ;
     line-height: 1.6;
 }
@@ -254,60 +281,26 @@ article {
     padding-top: 20px;
 }
 
-
+/*Bloc les plus populaire images*/
 
 .soleil-du-matin {
     background: url(/OP_P2_Reservia/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
     background-size: 60%;
+    background-position-x: -3em;
+    background-position-y: -6em;
+    
 }
 .au-coeur-de-leau {
     background: url(/OP_P2_Reservia/img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
     background-size: 60%;
+    background-position-x: -5em;
+    background-position-y: -6em;
 }
 .bleu-et-blanc {
     background: url(/OP_P2_Reservia/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)no-repeat;
     background-size: 60% ;
-}
-
-
-
-
-/*Acitivé à Marseille images*/
-
-
-#vieux_port {
-    position: relative;
-    background: url(img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
-    background-size:  auto;
-}
-#fort_pomegues {
-    position: relative;
-    background: url(img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
-    background-size: auto;
-}
-#iles_frioul {
-    position: relative;
-    background: url(img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
-    background-size: auto;
-
-}
-#calanques {
-    position: relative;
-    background: url(img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
-    background-size: auto;
-
-}
-#longchamp {
-    position: relative;
-    background: url(img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
-    background-size: auto;
-
-}
-#notre_dame_de_la_Garde {
-    position: relative;
-    background: url(img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-    background-size: auto;
-
+    background-position-y: -18em;
+    background-position-x: -8em;
 }
 
 /*Acitivé à Marseille GRID*/
@@ -315,33 +308,132 @@ article {
 aside {
     padding: 20px;
    
-    background-color: aqua;
+   
     border-radius: 20px;
 }
 .activites{
     display: grid;
-    background-color: tomato;
-    position: relative;
-    padding-top: 2em;
-   
+    grid-template-columns: repeat(4, 1fr[col-start]);
+    grid-template-rows: repeat(2,200px [col-start]);
+    gap: 2em;
 
-    grid-template-columns: repeat(4,1fr);
-    grid-auto-rows: 100px;
-    grid-gap: 10px;
-}
-.activites h3 {
-    position: relative;
-    background-color: white;
-    
-   
     
 }
+
 .carte_activite {
     background-color: violet;
-    
-   
+    max-width: 100%;
+    height: 100%;
     border-radius: 20px;
+    box-shadow: 0 4px 4px #8d8987;  
 }
+/*Titre activités*/
+
+#vieux_port h3 {
+    top: 18em;
+    padding-bottom: 2.1em;
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+    padding-left: 1em;  
+    font-weight: bold; 
+}
+#iles_frioul h3 {
+    top: 18em;
+    padding-bottom: 2.1em;
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+    padding-left: 1em;   
+}
+#fort_pomegues h3 {
+    top: 7em;
+    padding-bottom: 0.8em;
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+    padding-left: 1em; 
+}
+#notre_dame_de_la_Garde h3 {
+    top: 7em;
+    padding-bottom: 0.8em;
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+    padding-left: 1em; 
+}
+#calanques h3 {
+    top: 7em;
+    padding-bottom: 0.8em;
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+    padding-left: 1em; 
+}
+#longchamp h3 {
+    top: 7em;
+    padding-bottom: 0.8em;
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+    padding-left: 1em; 
+}
+
+
+/*Acitivé à Marseille images*/
+
+
+#vieux_port {
+    grid-column-start: 1/2;
+    grid-row: 1/3;
+    position: relative;
+    background: url(img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
+    background-size:  auto;
+}
+#fort_pomegues {
+    position: relative;
+    background: url(img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
+    background-size: 100%;
+    background-position-y: -15em;
+}
+#iles_frioul {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    position: relative;
+    background: url(img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
+    background-size: auto;
+    background-position-x: -10em;
+
+}
+#calanques {
+    position: relative;
+    background: url(img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
+    background-size: auto;
+    background-position-y: -7em;
+
+}
+#longchamp {
+    position: relative;
+    background: url(img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
+    background-size: auto;
+    background-position-x: -3em;
+    background-position-y: -6em;
+
+}
+#notre_dame_de_la_Garde {
+    position: relative;
+    background: url(img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: auto;
+    background-position-y: -4em;
+
+}
+
 
 
    
