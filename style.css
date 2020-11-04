@@ -251,7 +251,7 @@ article {
     padding: 20px;
     border-radius: 20px;
     grid-row-gap: 0.5em;
-    width: 33%;
+    width: 30%;
     
     
 }
@@ -285,7 +285,7 @@ article {
 
 .soleil-du-matin {
     background: url(/OP_P2_Reservia/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
-    background-size: 60%;
+    background-size: 70%;
     background-position-x: -3em;
     background-position-y: -6em;
     
