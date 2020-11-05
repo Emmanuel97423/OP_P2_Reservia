@@ -321,9 +321,7 @@ article a {
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
 aside {
-    padding: 20px;
-   
-   
+    padding: 20px;  
     border-radius: 20px;
 }
 .activites{
@@ -630,7 +628,61 @@ footer li {
         background-size: 100%;
         background-position-y: -23em;
     }
+
+    /*Activités Marseille mobile*/
+
+   
+    .activites{
+        display: flex;
+        flex-direction: column;
+
+    
         
+    }
+    .carte_activite {
+        width: 100%;
+        height: 200px;
+    }
+
+    #vieux_port h3 {
+        top: 7em;
+        padding-bottom: 0.8em;
+        position: relative;
+        background: white;
+        border-radius: 0px 0px 20px 20px;
+        padding-top: 1em;
+        padding-left: 1em; 
+    }
+    #vieux_port {
+        grid-column-start: 1/2;
+        grid-row: 1/3;
+        position: relative;
+        background: url(img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
+        background-size:  auto;
+        background-position-y: -9em;
+    }    
+    #iles_frioul h3 {
+        top: 7em;
+        padding-bottom: 0.8em;
+        position: relative;
+        background: white;
+        border-radius: 0px 0px 20px 20px;
+        padding-top: 1em;
+        padding-left: 1em; 
+    }
+    #iles_frioul {
+        grid-column: 3/4;
+        grid-row: 1/3;
+        position: relative;
+        background: url(img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
+        background-size: auto;
+        background-position-y: -9em;
+    
+    }
+
+    footer {
+        flex-direction: column;
+        }
      
 }
 
