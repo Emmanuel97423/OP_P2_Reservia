@@ -297,6 +297,12 @@ article a {
 
 /*-----------------------------------Bloc les plus populaire images----------------------------*/
 
+.bleu-et-blanc {
+    background: url(/OP_P2_Reservia/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)no-repeat;
+    background-size: 60% ;
+    background-position-y: -18em;
+    background-position-x: -8em;
+}
 .soleil-du-matin {
     background: url(/OP_P2_Reservia/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
     background-size: 70%;
@@ -310,12 +316,7 @@ article a {
     background-position-x: -5em;
     background-position-y: -6em;
 }
-.bleu-et-blanc {
-    background: url(/OP_P2_Reservia/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)no-repeat;
-    background-size: 60% ;
-    background-position-y: -18em;
-    background-position-x: -8em;
-}
+
 
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
@@ -474,7 +475,7 @@ footer li {
 
 /*Responsive mobile*/
 
-@media only screen and (max-width: 600px) {
+@media all  and (max-width: 1024px) {
     #top_menu {
         display: flex;
         
@@ -483,21 +484,7 @@ footer li {
         flex-direction: column-reverse;
         flex-wrap: wrap ;
     }
-    #top_menu li {
-       
-    }
-    #top_menu a {
-        
-           
-    }
-   
-    .liens-menu a {
-       
-    }
-    .inscription {
-       
-    }
-
+  
     
     #filtres {
         display:flex;
@@ -520,9 +507,89 @@ footer li {
          display: flex;
          flex-direction: column;
      }
-     section :nth-child(1) { order: 2;}
-     section :nth-child(2) { order: 1;}
-     section :nth-child(3) { order: 3;}
+     section :nth-child(1) { order: 4;}
+     section :nth-child(2) { order: 2;}
+     section :nth-child(3) { order: 1;}
+     section :nth-child(4) { order: 3;}
+     .tendances :nth-child(1) {order: 1}
+     .tendances :nth-child(2) {order: 2}
+     .tendances :nth-child(3) {order: 3}
+     .tendances :nth-child(4) {order: 4}
+     
 
+     /*tendances Mobile size*/
+
+     .tendances {
+        display: grid;
+        grid-template-columns: repeat 3;     
+        background-color:#F2F2F2;
+        
+        border-radius: 0;
+        grid-row-gap: 0.5em;
+        width: 100%;   
+        
+    }
+    .titre-tendance {
+        
+        font-size: 1em;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin-bottom: 100px;
+        height: 95px;
+
+        border-radius: 0px 10px 10px 0 ;
+       
+    }
+    .star-tendance {
+        padding-bottom: 10px;
+    }
+     .carte_tendance {
+   
+        border: 5px solid white;
+        border-radius: 20px;
+        
+        box-shadow: 0 4px 4px #8d8987;  
+    }
+    
+    .soleil-du-matin {
+        background: url(/OP_P2_Reservia/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
+        background-size: 60%;
+        background-position-x: -3em;
+        background-position-y: -1em;
+        
+    }
+    .au-coeur-de-leau {
+        background: url(/OP_P2_Reservia/img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
+        background-size: 60%;
+        background-position-x: -5em;
+        background-position-y: -1em;
+    }
+    .bleu-et-blanc {
+        background: url(/OP_P2_Reservia/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)no-repeat;
+        background-size: 80% ;
+        background-position-y: -18em;
+        background-position-x: -8em;
+    }
+    /*hebrgement à marseille mobile size*/
+    article {
+        
+         width: 100%;
+     }
+     #hebergement {
+         color: darkgoldenrod;
+         width: 100%;
+     }
+     .first-line-hebergement {
+         color: darkmagenta;
+         width: 100%;
+         margin-bottom: 0;
+     }
+     .carte {
+         width: 100%;
+         height: 200px;
+         margin-bottom: 1em;
+     }
+        
+     
 }
 
