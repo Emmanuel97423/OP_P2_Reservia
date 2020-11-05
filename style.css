@@ -1,6 +1,5 @@
 /*------------------------------------Définition de la police-----------------------------------*/
 
-
 @font-face {
     font-family: 'ralewaythin';
     src: url('fonts/raleway-variablefont_wght-webfont.eot');
@@ -11,20 +10,28 @@
          url('fonts/raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 body {    
-    font-family: 'ralewaythin';
+    font-family: 'ralewaythin','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
+}
+body h3 {
+    
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+    
 }
 #bloc_page {
     width: inherit;
     margin: 3em;
 }
-
+.titre {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
 /*-----------------------------------------------header----------------------------------------*/
 
 header {
@@ -50,8 +57,7 @@ header {
 #top_menu li {
     margin-right: 3em;    
 }
-#top_menu a {
-    
+#top_menu a {    
     text-decoration: none; 
     padding-top: 3.1em;    
 }
@@ -65,6 +71,7 @@ header {
 .inscription {
     color: #0065FC;
 }
+
 /*---------------------------------------------header recherche---------------------------*/
 
 #recherche {
@@ -89,13 +96,12 @@ header {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     margin-right: -0.1em;
-    border-style: hidden;
-    
+    border-style: hidden;   
 }
 .input_recherche {
-    padding: 12px;
-    
+    padding: 12px;   
 }
+
 /*-------------------------------------------header filtre---------------------------*/
 
 #filtres {
@@ -142,8 +148,6 @@ header {
 .fa-info-circle {
     color: #0065FC;
     padding: 0.8em;
-   
- 
 }
 
 /*--------------------------------------corps hebergement à Marseille-----------------------------*/
@@ -153,8 +157,6 @@ section {
     flex-direction: row;
     justify-content: space-between;
 }
-
-
 article {
     background-color: #F2F2F2;
     padding: 2em;
@@ -185,9 +187,7 @@ article a {
 .star {    
     background-color: white;
     position: absolute;
-    bottom: 0;   
-   
-    
+    bottom: 0;      
 }
 .first-line-hebergement {
     display: flex;
@@ -249,7 +249,6 @@ article a {
     background-size: 100%;
     background-position-y: -13em;
 }
-
 
 /*-------------------------------------Bloc les plus populaire-------------------------------*/
 
@@ -317,7 +316,6 @@ article a {
     background-position-y: -6em;
 }
 
-
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
 aside {
@@ -328,11 +326,8 @@ aside {
     display: grid;
     grid-template-columns: repeat(4, 1fr[col-start]);
     grid-template-rows: repeat(2,200px [col-start]);
-    gap: 2em;
-
-    
+    gap: 2em;   
 }
-
 .carte_activite {
     background-color: violet;
     max-width: 100%;
@@ -340,6 +335,7 @@ aside {
     border-radius: 20px;
     box-shadow: 0 4px 4px #8d8987;  
 }
+
 /*-----------------------------------------Titre activités------------------------------------*/
 
 #vieux_port h3 {
@@ -398,9 +394,7 @@ aside {
     padding-left: 1em; 
 }
 
-
 /*--------------------------------------Acitivé à Marseille images----------------------------*/
-
 
 #vieux_port {
     grid-column-start: 1/2;
@@ -422,14 +416,12 @@ aside {
     background: url(img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
     background-size: auto;
     background-position-x: -10em;
-
 }
 #calanques {
     position: relative;
     background: url(img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
     background-size: auto;
     background-position-y: -7em;
-
 }
 #longchamp {
     position: relative;
@@ -437,14 +429,12 @@ aside {
     background-size: auto;
     background-position-x: -3em;
     background-position-y: -6em;
-
 }
 #notre_dame_de_la_Garde {
     position: relative;
     background: url(img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     background-size: auto;
     background-position-y: -4em;
-
 }
 
 /*--------------------------------------------------footer---------------------------------------*/
@@ -465,25 +455,26 @@ footer a:hover {
 }
 footer li {
     list-style-type: none;
-    padding-top: 1em;
-    
-}
+    padding-top: 1em;   
+}   
 
-   
-
-/*Responsive mobile*/
+/*----------------------------------------Responsive mobile-------------------------------------*/
 
 @media all  and (max-width: 1024px) {
     #top_menu {
-        display: flex;
-        
+        display: flex;        
     }
     #top_menu ul{
         flex-direction: column-reverse;
         flex-wrap: wrap ;
     }
-  
-    
+    #top_menu a {
+         text-decoration: none;
+    } 
+    #top_menu a:hover {
+        color: #0065FC;
+        border-bottom: none;
+    }  
     #filtres {
         display:flex;
         flex-direction: column;
@@ -514,41 +505,32 @@ footer li {
      .tendances :nth-child(3) {order: 3}
      .tendances :nth-child(4) {order: 4}
      
-
-     /*tendances Mobile size*/
+     /*-------------------------------------tendances Mobile size*/
 
      .tendances {
         display: grid;
         grid-template-columns: repeat 3;     
-        background-color:#F2F2F2;
-        
+        background-color:#F2F2F2;   
         border-radius: 0;
         grid-row-gap: 0.5em;
-        width: 100%;   
-        
+        width: 100%;       
     }
-    .titre-tendance {
-        
+    .titre-tendance {   
         font-size: 1em;
         padding-top: 10px;
         padding-bottom: 50px;
         margin-bottom: 100px;
         height: 95px;
-
-        border-radius: 0px 10px 10px 0 ;
-       
+        border-radius: 0px 10px 10px 0 ;       
     }
     .star-tendance {
         padding-bottom: 10px;
     }
-     .carte_tendance {
-   
+     .carte_tendance {   
         border: 5px solid white;
-        border-radius: 20px;
-        
+        border-radius: 20px;       
         box-shadow: 0 4px 4px #8d8987;  
-    }
-    
+    }   
     .soleil-du-matin {
         background: url(/OP_P2_Reservia/img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) no-repeat;
         background-size: 60%;
@@ -559,7 +541,7 @@ footer li {
     .au-coeur-de-leau {
         background: url(/OP_P2_Reservia/img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
         background-size: 60%;
-        background-position-x: -5em;
+        background-position-x: -1em;
         background-position-y: -1em;
     }
     .bleu-et-blanc {
@@ -568,10 +550,12 @@ footer li {
         background-position-y: -18em;
         background-position-x: -8em;
     }
-    /*hebergement à marseille mobile size*/
-    article {
-        
+
+    /*--------------------------------hebergement à marseille mobile size*/
+
+    article {        
          width: 100%;
+         border: none;
      }
      #hebergement {
          color: darkgoldenrod;
@@ -590,9 +574,7 @@ footer li {
      .titre {
         position: absolute; 
         bottom: 0;
-        width: 96%;
-
-         
+        width: 96%;        
      }
      .cannebiere {
         background: url(img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
@@ -629,21 +611,17 @@ footer li {
         background-position-y: -23em;
     }
 
-    /*Activités Marseille mobile*/
-
-   
+    /*--------------------------------------Activités Marseille mobile*/
+ 
     .activites{
         display: flex;
         flex-direction: column;
-
-    
-        
+      
     }
     .carte_activite {
         width: 100%;
         height: 200px;
     }
-
     #vieux_port h3 {
         top: 7em;
         padding-bottom: 0.8em;
@@ -679,10 +657,10 @@ footer li {
         background-position-y: -9em;
     
     }
+/*----------------------------------------footer mobile*/
 
     footer {
         flex-direction: column;
-        }
-     
+        }    
 }
 
