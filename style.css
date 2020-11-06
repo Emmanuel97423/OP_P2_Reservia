@@ -21,7 +21,14 @@ body h1 {
 body h3 {
     
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: bolder;
+        font-weight: bolder;   
+}
+body a {
+   
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
     
 }
 #bloc_page {
@@ -474,6 +481,7 @@ footer li {
     #top_menu a:hover {
         color: #0065FC;
         border-bottom: none;
+        border: 0;
     }  
     #filtres {
         display:flex;
