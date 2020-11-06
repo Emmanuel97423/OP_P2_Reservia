@@ -14,19 +14,19 @@
 
     <header>
         <div class="logo">
-            <img src="img/logo/Reservia.svg">
+            <img src="img/logo/Reservia.svg" alt="logo-reservia">
         </div>
         <div id="top_menu">
             <ul>
                 <li  class="liens-menu"><a href="index.html#filtres">Hébergements</a></li>
                 <li class="liens-menu"><a href="index.html#ancre_activite">Activités</a></li>
-                <strong><li><a class="inscription" href="#">S'inscrire</a></li></strong>
+                <li><strong><a class="inscription" href="#">S'inscrire</a></strong></li>
             </ul>          
         </div>
         <div id="recherche">
             <h1>Trouvez votre Hébergements pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <form action="" method="POST" class="form_recherche">
+            <form action="submit" method="POST" class="form_recherche">
                 <i class="fas fa-map-marker-alt"></i><input class="input_recherche" type="text" name="recherche" value="Marseille, France">
                 <input class=submit_recherche type="button" value="Rechercher">
             </form>
@@ -34,10 +34,10 @@
         <div id="filtres">
             <h2>Filtres</h2>
                 <ul>
-                    <a href="#"><li><i class="filtre-ico fas fa-money-bill-wave"></i>Economique</li></a>
-                    <a href="#"><li><i class="filtre-ico fas fa-child"></i>Familial</li></a>
-                    <a href="#"><li><i class="filtre-ico fas fa-heart"></i>Romantique</li></a>
-                    <a href="#"><li><i class="filtre-ico fas fa-dog"></i>Animaux autorisés</li></a>
+                    <li><i class="filtre-ico fas fa-money-bill-wave"></i>Economique</li>
+                    <li><i class="filtre-ico fas fa-child"></i>Familial</li>
+                    <li><i class="filtre-ico fas fa-heart"></i>Romantique</li>
+                    <li><i class="filtre-ico fas fa-dog"></i>Animaux autorisés</li>
                 </ul>
         </div>
         <div id="infos_nombre_logements">
@@ -193,11 +193,11 @@
       
     </section>
     <aside>
-        <h1 id="ancre_activite">Activités à Marseille</h1>
+        <div id="ancre_activite"><h1>Activités à Marseille</h1></div>
         <div class="activites">
             
             
-                <div li class="carte_activite" id="vieux_port">
+                <div class="carte_activite" id="vieux_port">
                     <h3>Vieux Port</h3>
                 </div>
                 <div class="carte_activite" id="fort_pomegues">
