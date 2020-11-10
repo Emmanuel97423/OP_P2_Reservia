@@ -188,10 +188,13 @@ section img {
     background-size: cover;
 }
 article {
+    display: flex;
+    flex: 1 32%;;
     background-color: #F2F2F2;
     padding: 2em;
-    width: 60%;
+    width: 50%;
     border-radius: 20px;    
+    
 }
 article a {
     color: black;
@@ -200,10 +203,10 @@ article a {
     background-color: white;
     position: absolute;
     bottom: 0;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 15px 15px;
     height: 65px;
-    width: 95%;
-    padding: 10px;
+    width: 100%;
+    padding-top: 1em;
     margin-bottom: initial;
     font-weight: bolder;
 }
@@ -221,13 +224,16 @@ article a {
 }
 
 .carte {
-    margin: 1em;
+    display: flex;
+
+    
     border-radius: 20px;
     border: 5px solid white;
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;
     box-shadow: 0 4px 4px #8d8987;   
+    
     
     
 }
@@ -238,11 +244,15 @@ article a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-size: cover;
-    justify-content: space-between;
+    
+  
+    
 }
 #hebergement>* {
-    flex: 1 1 250px;
+    flex: 1 1  300px; 
+    justify-content: space-between;  
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 
