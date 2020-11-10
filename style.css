@@ -267,6 +267,7 @@ article a {
     grid-template-columns: repeat 3;     
     background-color:#F2F2F2;
     padding: 20px;
+    margin-left: 1em;
     border-radius: 20px;
     grid-row-gap: 0.5em;
     width: 30%;   
@@ -507,15 +508,7 @@ footer li {
         display: flex;
         flex-wrap: wrap;
     }
-    .first-line-hebergement {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .second-line-hebergement {
-        display: flex;
-        flex-direction: column;
-    }
+ 
      section {
          display: flex;
          flex-direction: column;
@@ -555,6 +548,10 @@ footer li {
         border-radius: 20px;       
         box-shadow: 0 4px 4px #8d8987;  
     }   
+    .tendances img {
+        width: 43%;
+        border-radius: 15px 0 0 15px;
+    }
 
 
 
@@ -582,42 +579,9 @@ footer li {
     .titre {
         position: absolute; 
         bottom: 0;
-        width: 96%;        
+        width: 100%;        
      }
-    .cannebiere {
-        background: url(img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) no-repeat;
-        background-size: 150%;
-        background-position-y: -18em;
-        background-position-x: -4em;
-    }
-    .hotel-du-port {
-        background: url(img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) no-repeat;
-        background-size: 150%;
-        background-position-y: -17em;
-        background-position-x: -4em;
-    }
-    .hotel-des-mouettes {
-        background: url(img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg) no-repeat;
-        background-size: 150%;
-        background-position-y: -18em;
-        background-position-x: -9em;
-    }
-    .hotel-de-la-mer {
-        background: url(img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg) no-repeat;
-        background-size: 100%;
-        background-position-y: -16em;
-        
-    }
-    .auberge-du-panier {
-        background: url(img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) no-repeat;
-        background-size: 150%;
-        background-position-y: -13em;
-    }
-    .hotel-chez-amina {
-        background: url(img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) no-repeat;
-        background-size: 100%;
-        background-position-y: -23em;
-    }
+    
 
     /*--------------------------------------Activités Marseille mobile*/
  
