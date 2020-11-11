@@ -340,7 +340,7 @@ aside {
     border-radius: 20px 20px 0 0;
 }
 .carte_activite {
-    background-color: violet;
+    
     max-width: 100%;
     border-radius: 20px;
     box-shadow: 0 4px 4px #8d8987;  
@@ -412,14 +412,14 @@ aside {
     grid-column-start: 1/2;	
     grid-row: 1/3;	
     position: relative;	
-    	
+    cursor: pointer;	
     
 }
 #vieux_port img {
-    background-size: auto;
-    position: relative;
-    max-width:  100%;
-    height: 24em;
+  display: flex;
+  flex: 1 1 200px;
+    width:  100%;
+    height: 400px;
     	
     
     
@@ -431,6 +431,7 @@ aside {
     background: url(img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
     background-size: auto;
     background-position-y: -15em;
+    cursor: pointer;
 }
 #iles_frioul {
     grid-column: 3/4;
@@ -439,12 +440,14 @@ aside {
     background: url(img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
     background-size: auto;
     background-position-x: -10em;
+    cursor: pointer;
 }
 #calanques {
     position: relative;
     background: url(img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
     background-size: auto;
     background-position-y: -7em;
+    cursor: pointer;
 }
 #longchamp {
     position: relative;
@@ -452,12 +455,14 @@ aside {
     background-size: auto;
     background-position-x: -3em;
     background-position-y: -6em;
+    cursor: pointer;
 }
 #notre_dame_de_la_Garde {
     position: relative;
     background: url(img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     background-size: auto;
     background-position-y: -4em;
+    cursor: pointer;
 }
 
 
