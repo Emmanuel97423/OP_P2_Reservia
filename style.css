@@ -97,7 +97,7 @@ header {
     flex-direction: column;    
 }
 .logo img {
-    margin-bottom: 20px;
+    margin-bottom: 3em;
 }
 
 /*--------------------------------------------header top menu----------------------------------*/
@@ -395,14 +395,14 @@ aside {
 /*-----------------------------------------Titre activités------------------------------------*/
 
 #vieux_port h3 {
-   
-    padding-bottom: 1.1em;
+    top: 18em;   
+    padding-bottom: 2em;
     position: relative;
     background: white;
     border-radius: 0px 0px 20px 20px;
     padding-top: 1em;
     padding-left: 1em; 
-    margin: auto; 
+    margin-top: 5em;
     font-weight: bold; 
 }
 #iles_frioul h3 {
@@ -413,10 +413,10 @@ aside {
     padding-bottom: 2em;
     padding-top: 1em;
     padding-left: 1em;   
-    margin-top: 2.5em;
+    margin-top: 5em;
 }
 #fort_pomegues h3 {
-    top: 7em;
+    top: 9.8em;
     padding-bottom: 0.8em;
     position: relative;
     background: white;
@@ -425,16 +425,17 @@ aside {
     padding-left: 1em; 
 }
 #notre_dame_de_la_Garde h3 {
-    top: 7em;
-    padding-bottom: 0.8em;
+    top: 8.5em;
+    padding-bottom: 2em;
     position: relative;
     background: white;
     border-radius: 0px 0px 20px 20px;
     padding-top: 1em;
     padding-left: 1em; 
+    
 }
 #calanques h3 {
-    top: 7em;
+    top: 9.8em;
     padding-bottom: 0.8em;
     position: relative;
     background: white;
@@ -443,8 +444,8 @@ aside {
     padding-left: 1em; 
 }
 #longchamp h3 {
-    top: 7em;
-    padding-bottom: 0.8em;
+    top: 8.5em;
+    padding-bottom: 2em;
     position: relative;
     background: white;
     border-radius: 0px 0px 20px 20px;
@@ -455,22 +456,15 @@ aside {
 /*--------------------------------------Acitivé à Marseille images----------------------------*/
 
 
-#vieux_port {	
-    grid-column-start: 1/2;	
-    grid-row: 1/3;	
-    position: relative;	
-    cursor: pointer;	
-    
+#vieux_port {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    position: relative;
+    background: url(img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
+    background-size: auto;
+    background-position-y: -2em;
+    cursor: pointer;
 }
-#vieux_port img {
-  
-    width:  100%;
-    height: 400px;
-    	
-    
-    
-}	
-
 
 #fort_pomegues {
     position: relative;
