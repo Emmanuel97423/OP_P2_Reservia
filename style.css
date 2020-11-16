@@ -62,7 +62,8 @@ body {
 body h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    
+    padding-bottom: 1.5em;
+    padding-top: 2em;
 }
 body h3 {
     
@@ -89,6 +90,10 @@ font-size: xx-large;
     font-family: 'Raleway', sans-serif;
 
     font-weight: bold;
+}
+#titre_tendances {
+    margin-bottom: 0em;
+    padding:0;
 }
 /*-----------------------------------------------header----------------------------------------*/
 
@@ -120,16 +125,19 @@ header {
 }
 #top_menu a {    
     text-decoration: none; 
-    padding-top: 2em;    
+    padding-top: 3.8em;    
 }
-#top_menu a:link {
+/*#top_menu a:link {
     color:#0065FC;
 }
 #top_menu a:visited {
     color: purple;
+}/*/
+#top_menu a.active {
+    color: #7e1147;
+    
 }
-#top_menu a:hover, #top_menu a.active {
-    color: #0065FC;
+#top_menu a:hover{
     border-top: 3px solid #0065FC;
 }
 #recherche p {
@@ -329,12 +337,12 @@ article h3 {
    
     border: 5px solid white;
     border-radius: 20px;
-    height: 150px;
+    height: 188px;
     box-shadow: 0 4px 4px #8d8987;  
 }
 .tendances img {
     width: 13%;
-    height: 150px;
+    height: 188px;
     position: absolute;
    
 }
@@ -345,9 +353,10 @@ article h3 {
     margin-left: 200px;
     padding-left: 10px;
     padding-top: 45px;
-    padding-bottom: 0.8em;
+    padding-bottom: 3em;
     border-radius: 0px 10px 10px 0 ;
     line-height: 1.6;
+   
 }
 .star-tendance {
     padding-top: 20px;
@@ -608,16 +617,14 @@ footer li {
          border: none;
      }
     #hebergement {
+        display: flex;
+        flex-direction: column;
          color: darkgoldenrod;
          width: 100%;
      }
-    .first-line-hebergement {
-         color: darkmagenta;
-         width: auto;
-         margin-bottom: 0;
-     }
+   
     .carte {
-         width: auto;
+         width: 250%;
          height: 220px;
          margin-bottom: 1em;
      }
