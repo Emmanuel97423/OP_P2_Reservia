@@ -63,7 +63,7 @@ body {
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
     padding-top: 2em;
 }
 h2 {
@@ -88,6 +88,7 @@ font-size: xx-large;
     width: inherit;
     margin: 3em;
 }
+#bloc_page> header, #bloc_page> section, #bloc_page> aside { margin: 3em; }
 
 
 .titre {
@@ -97,7 +98,12 @@ font-size: xx-large;
 }
 #titre_tendances {
     margin-bottom: 0em;
-    padding:0;
+    padding:14px;
+}
+#titre_marseille {
+    margin-bottom: 0em;
+    padding-left:1em;
+    padding-top: 0em;
 }
 /*-----------------------------------------------header----------------------------------------*/
 
@@ -224,6 +230,7 @@ header {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    margin-bottom: 2.5em;
 }
 .fa-info-circle {
     color: #0065FC;
@@ -242,7 +249,7 @@ section {
 }
 section img {
     width: 100%;
-    height: 200px;   
+    height: 175px;   
     border-radius: 20px;
     background-size: cover;
 }
@@ -256,12 +263,11 @@ article {
 article a {
     color: black;
 }
-article h1 {
-    padding-bottom: 1em; 
-}
+
 article h3 {
     padding-top: 2em;
 }
+
 .titre {
     background-color: white;
     position: absolute;
@@ -271,7 +277,10 @@ article h3 {
     width: 100%;
     padding-top: 1em;
     margin-bottom: initial;
-    font-weight: bolder;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .prix {
     position: absolute;
@@ -279,35 +288,31 @@ article h3 {
     padding-bottom: 30px;
     font-size: 0.8em;
     margin-bottom: initial;
+    font-weight: normal;
 }
 .star {    
     background-color: white;
     position: absolute;
-    bottom: 0;      
+    bottom: 5px;      
 }
 
 .carte {
     display: flex;
     width: 28%;
-    margin: 1.5%;
-    
+    margin: 1.5%;  
     border-radius: 20px;
     border: 5px solid white;
-    position: relative;
-    
+    position: relative;   
     height: auto;
-    box-shadow: 0 4px 4px #8d8987;   
-    
-    
-    
+    box-shadow: 0 4px 4px #8d8987;    
+    overflow: hidden;  
 }
 
 /*--------------------------corps hebergement à Marseille gestion de resize images-----------------*/
 
 #hebergement {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 
@@ -340,29 +345,38 @@ article h3 {
    
     border: 5px solid white;
     border-radius: 20px;
-    height: 188px;
+    height: 150px;
     box-shadow: 0 4px 4px #8d8987;  
+    background-color: white !important;
+    overflow: hidden;
 }
 .tendances img {
-    width: 13%;
-    height: 188px;
-    position: absolute;
+    width: 45%;
+    height: 100%;
+   
    
 }
 .titre-tendance {
-    position: relative;
-    font-size: 1em;
-    background-color: white;
-    margin-left: 200px;
+    width: 50%;
     padding-left: 10px;
-    padding-top: 45px;
-    padding-bottom: 3em;
+    display: inline-block;
+    position: relative;
+    background-color: white;
     border-radius: 0px 10px 10px 0 ;
     line-height: 1.6;
+    vertical-align: top;
+    padding-top: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
    
 }
 .star-tendance {
-    padding-top: 20px;
+    padding-top: 10px;
+}
+.prix-tendance {
+    font-size: 0.8em;
+    font-weight: normal;
+
 }
 
 
@@ -542,6 +556,12 @@ footer li {
 /*----------------------------------------Responsive mobile-------------------------------------*/
 
 @media all  and (max-width: 1024px) {
+    #bloc_page> header, #bloc_page> section, #bloc_page> aside {
+        margin: 1em;
+    }
+    #bloc_page> section { 
+        margin: 0; 
+    }
     #top_menu {
         display: flex;        
     }
@@ -587,7 +607,7 @@ footer li {
         background-color:#F2F2F2;   
         border-radius: 0;
         grid-row-gap: 0.5em;
-        width: 100%;       
+        width: auto;       
     }
     .titre-tendance {   
         font-size: 1em;
@@ -616,7 +636,7 @@ footer li {
     /*--------------------------------hebergement à marseille mobile size*/
 
     article {        
-         width: 100%;
+         width: auto;
          border: none;
      }
     #hebergement {
@@ -627,7 +647,7 @@ footer li {
      }
    
     .carte {
-         width: 250%;
+         width: 100%;
          height: 220px;
          margin-bottom: 1em;
      }
