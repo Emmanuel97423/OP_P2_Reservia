@@ -154,7 +154,7 @@ padding-top: 1em;
     align-items: flex-end;
 }
 #top_menu li {
-    margin-right: 0sem;    
+    margin-right: 1em;    
 }
 .inscription {
     color: #0065FC;
@@ -631,13 +631,15 @@ footer li {
         display:flex;
         flex-direction: column;
         display: flex;
-        padding:50px 20px;   
+         
         align-items: left;
         width: 100%;
         
     }
     #filtres h2 {
         text-align: center;
+        margin-right: 16em;
+        margin-bottom: 1em;
     }
     #filtres ul {
         display: flex;
