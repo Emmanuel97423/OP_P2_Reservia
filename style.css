@@ -206,8 +206,8 @@ padding-top: 1em;
     margin-left: -0.5em;
     padding: 12px 12px 14px;
     color: white;
-
 }
+
 .fa-map-marker-alt{
     padding: 13px;
     padding-bottom: 0.95em;
@@ -698,12 +698,13 @@ footer li {
     article {        
          width: auto;
          border: none;
+         background-color:white;
      }
     #hebergement {
         display: flex;
         flex-direction: column;
-         color: darkgoldenrod;
-         width: 100%;
+        color: darkgoldenrod;
+        width: 100%;
      }
    
     .carte {
