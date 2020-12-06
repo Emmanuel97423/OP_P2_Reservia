@@ -299,7 +299,7 @@ section img {
     width: 100%;
     height: 175px;   
     border-radius: 20px;
-    background-size: cover;
+    object-fit: cover;
 }
 article {
     
@@ -403,6 +403,7 @@ article h3 {
     width: 45%;
     height: 100%;
     border-radius: 20px 0 0 20px;
+    object-fit: cover;
    
    
 }
@@ -551,10 +552,9 @@ aside h1 {
 
 #fort_pomegues {
     position: relative;
-    background: url(img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
-    background-size: 100%;
-    background-position-y: -15em;
-    
+    background: url(img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
+    background-size: auto;
+    background-position-y: -30em; 
     cursor: pointer;
 }
 #iles_frioul {
@@ -704,6 +704,7 @@ footer li {
     .tendances img {
         width: 43%;
         border-radius: 15px 0 0 15px;
+        object-fit: cover;
     }
 
 
@@ -759,10 +760,18 @@ footer li {
         grid-column-start: 1/2;
         grid-row: 1/3;
         position: relative;
-        background: url(img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
+        background: url(img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) no-repeat;
         background-size:  auto;
-        background-position-y: -9em;
+        background-position-y: -35em;
     }    
+    #fort_pomegues {
+        position: relative;
+        background: url(img/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg) no-repeat;
+        background-size: auto;
+        background-position-y: -60em; 
+        background-position-x:-10em;
+        cursor: pointer;
+    }
     #iles_frioul h3 {
         top: 5em;
         padding-bottom: 0.8em;
@@ -776,10 +785,24 @@ footer li {
         grid-column: 3/4;
         grid-row: 1/3;
         position: relative;
-        background: url(img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
+        background: url(img/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) no-repeat;
         background-size: auto;
-        background-position-y: -9em;
-    
+        background-position-y: -20em;
+    }
+    #calanques {
+        position: relative;
+        background: url(img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) no-repeat;
+        background-size: auto;
+        background-position-y: -25em;
+        cursor: pointer;
+    }
+    #longchamp {
+        position: relative;
+        background: url(img/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg) no-repeat;
+        background-size: auto;
+        background-position-x: -9em;
+        background-position-y: -17em;
+        cursor: pointer;
     }
 /*----------------------------------------footer mobile*/
 
