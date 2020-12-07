@@ -431,21 +431,6 @@ article h3 {
 }
 
 
-/*-----------------------------------Bloc les plus populaire images----------------------------*/
-
-.bleu-et-blanc {
-    background: url(/OP_P2_Reservia/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)no-repeat;
-    background-size: 60% ;
-    background-position-y: -18em;
-    background-position-x: -8em;
-}
-
-.au-coeur-de-leau {
-    background: url(/OP_P2_Reservia/img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) no-repeat;
-    background-size: 60%;
-    background-position-x: -5em;
-    background-position-y: -6em;
-}
 
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
