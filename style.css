@@ -663,7 +663,7 @@ footer li {
         background-color:#F2F2F2;   
         border-radius: 0;
         grid-row-gap: 0.5em;
-        width: auto;       
+        width: 100%;       
     }
     .titre-tendance {   
         font-size: 1em;
