@@ -233,6 +233,7 @@ padding-top: 1em;
     flex-direction: row;
     padding:50px 0px;   
     align-items: center;
+    text-align: center;
     width: 100%;
 }
 #filtres a {
@@ -692,7 +693,7 @@ footer li {
     /*--------------------------------hebergement à marseille mobile size*/
 
     article {        
-         width: 91%;
+         width: 100%;
          border: none;
          background-color:white;
      }
@@ -704,7 +705,7 @@ footer li {
      }
    
     .carte {
-         width: 100%;
+         width: 95%;
          height: 220px;
          margin-bottom: 1em;
      }
@@ -793,3 +794,26 @@ footer li {
     }    
 }
 
+
+@media all  and (max-width: 320px) {
+
+    .filtres__titre {
+        width: 100%;
+    }
+    #top_menu ul{
+        width: 100%;
+    }
+
+    #top_menu a.active {
+        border-top: none;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 1em;
+    }
+   .input_recherche { 
+       width: 46%;
+   }
+    
+
+}
+ 
