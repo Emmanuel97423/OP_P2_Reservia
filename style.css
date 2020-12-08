@@ -680,6 +680,7 @@ footer li {
         border: 5px solid white;
         border-radius: 20px;       
         box-shadow: 0 4px 4px #8d8987;  
+        margin: 1em;
     }   
     .tendances img {
         width: 43%;
@@ -812,6 +813,9 @@ footer li {
     }
    .input_recherche { 
        width: 46%;
+   }
+   .inscription { 
+       margin-right: 1.5em;
    }
     
 
