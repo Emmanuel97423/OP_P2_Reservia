@@ -597,7 +597,7 @@ footer li {
 
 /*----------------------------------------Responsive mobile-------------------------------------*/
 
-@media all  and (max-width: 1024px) {
+@media all  and (max-width: 812px) {
     #bloc_page> header, #bloc_page> section, #bloc_page> aside {
         margin: 1em;
     }
@@ -632,11 +632,7 @@ footer li {
         width: 100%;
         
     }
-    #filtres h2 {
-        text-align: center;
-        margin-right: 16em;
-        margin-bottom: 1em;
-    }
+
     #filtres ul {
         display: flex;
         flex-wrap: wrap;
@@ -820,4 +816,13 @@ footer li {
     
 
 }
+@media all  and (max-width: 1024px) {
+    .filtres__titre { 
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+}
+
+
  
