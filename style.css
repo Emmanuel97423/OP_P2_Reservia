@@ -837,7 +837,7 @@ footer li {
 @media all  and (max-width: 1024px) {
     .filtres__titre { 
         width: 100%;
-        margin-bottom: 20px;
+        
         text-align: left;
     }
 }
