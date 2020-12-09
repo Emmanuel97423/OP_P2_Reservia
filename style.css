@@ -229,7 +229,8 @@ padding-top: 1em;
 /*-------------------------------------------header filtre---------------------------*/
 
 #filtres {
-    
+    display: grid;
+    grid-template-columns: 6% 94%;
     padding:50px 0px;   
     align-items: center;
     text-align: center;
