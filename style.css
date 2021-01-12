@@ -31,6 +31,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html, body {
+    width: 100%;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -70,7 +73,7 @@ h1 {
 }
 h2 {
     font-weight: bolder;
-    padding-right: 2em;
+ 
 }
 h3 { 
     font-family: 'Raleway', sans-serif;
@@ -115,9 +118,9 @@ padding-top: 1em;
     padding:14px;
 }*/
 #titre_marseille {
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;
     padding-left:1em;
-    padding-top: 0em;
+    padding-top: 0em;*/
 }
 /*-----------------------------------------------header----------------------------------------*/
 
@@ -302,16 +305,16 @@ article {
     
     background-color: #F2F2F2;
     padding: 20px;
-    width: 55%;
+    width: 60%;
     border-radius: 20px;       
 }
 article a {
     color: black;
 }
-
+/*
 article h3 {
     padding-top: 2em;
-}
+}*/
 
 .titre {
     background-color: white;
@@ -372,9 +375,9 @@ article h3 {
 
 .tendances {
     display: grid;
-        
+    padding: 20px;    
     background-color:#F2F2F2;
-    padding: 20px;
+
     
     border-radius: 20px;
     grid-row-gap: 0.5em;
@@ -432,7 +435,7 @@ article h3 {
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
 aside {
-    padding: 20px;  
+    
     border-radius: 20px;
 }
 aside h2 {
@@ -800,7 +803,7 @@ footer li {
     display: none;
   }
   aside{
-      width: 95%;
+      width: 100%;
       margin: 0;
   }
     .filtres__titre {
