@@ -29,10 +29,12 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 html, body {
     width: 100%;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -42,9 +44,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+header {
+    padding: 10px;
+}
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -79,6 +85,11 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;   
 }
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+}
 body a {
    
     width: auto;
@@ -97,14 +108,11 @@ padding-top: 1em;
 }
 
 
-#bloc_page {
-    width: inherit;
-    
-}
-#bloc_page> header, #bloc_page> section, #bloc_page> aside { 
+
+/*#bloc_page> header, #bloc_page> section, #bloc_page> aside { 
     margin: 3em;
     
- }
+ }*/
 
 
 .titre {
@@ -168,7 +176,7 @@ padding-top: 1em;
 }
 #top_menu a {    
     text-decoration: none; 
-    padding-top: 3.8em;    
+    padding-top: 1.3em;    
 }
 
 
@@ -177,6 +185,7 @@ padding-top: 1em;
     border-top: 10px solid #0065FC;
 }
 @media all  and (max-width: 1024px) {
+
     #top_menu a.active {
         border-top: none;
         color: #0065FC;
@@ -290,10 +299,12 @@ padding-top: 1em;
 section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 20px 30px;
+   
 }
 section h2 {
     font-size:23px;
+    padding: 0 0 0 20px;
 }
 section img {
     width: 100%;
@@ -301,13 +312,18 @@ section img {
     border-radius: 20px;
     object-fit: cover;
 }
-article {
-    
+article {  
     background-color: #F2F2F2;
-    padding: 20px;
+    margin: 0 0 0 20px;
+    padding: 20px 0 0 0;
     width: 60%;
     border-radius: 20px;       
 }
+@media all  and (max-width: 812px) {
+        article { 
+            margin:0;
+        }
+} 
 article a {
     color: black;
 }
@@ -362,6 +378,7 @@ article h3 {
     display: flex;
     flex-wrap: wrap;  
     justify-content: space-between; 
+    
 }
 
 
@@ -375,13 +392,13 @@ article h3 {
 
 .tendances {
     display: grid;
-    padding: 20px;    
+    padding: 20px 0 0 0;    
     background-color:#F2F2F2;
 
     
     border-radius: 20px;
     grid-row-gap: 0.5em;
-    width: 30%;   
+    width: 35%;   
 }
 .tendances a {
     text-decoration: none;
@@ -391,7 +408,7 @@ article h3 {
     list-style-type: none;
 }
 .carte_tendance {
-   
+    margin:10px;
     border: 5px solid white;
     border-radius: 20px;
     height: 120px;
@@ -435,12 +452,12 @@ article h3 {
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
 aside {
-    
+    margin:15px;
     border-radius: 20px;
 }
 aside h2 {
     font-size:23px;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 .activites{
@@ -601,12 +618,12 @@ footer li {
 /*----------------------------------------Responsive mobile-------------------------------------*/
 
 @media all  and (max-width: 812px) {
-    #bloc_page> header, #bloc_page> section, #bloc_page> aside {
+    /*#bloc_page> header, #bloc_page> section, #bloc_page> aside {
         margin: 1em;
     }
     #bloc_page> section { 
         margin: 0; 
-    }
+    }*/
     #top_menu {
         display: flex;        
     }
@@ -623,9 +640,10 @@ footer li {
         border: 0;
     }  
     .line {
-        width:100%;
+
         border-bottom:2px solid #F2F2F2;
         padding-top: 1em;
+        margin: 0 -10px 0 -10px;
         
     }
     #filtres {
@@ -797,7 +815,6 @@ footer li {
 
 @media all  and (max-width: 320px) {
 
-   
   
   [hidden] {
     display: none;
