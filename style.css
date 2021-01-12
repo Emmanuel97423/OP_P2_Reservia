@@ -643,7 +643,7 @@ footer li {
 
         border-bottom:2px solid #F2F2F2;
         padding-top: 1em;
-        margin: 0 -10px 0 -10px;
+        
         
     }
     #filtres {
@@ -815,10 +815,11 @@ footer li {
 
 @media all  and (max-width: 320px) {
 
-  
-  [hidden] {
-    display: none;
-  }
+    html {
+        margin:0;
+        padding:0;
+    }
+
   aside{
       width: 100%;
       margin: 0;
