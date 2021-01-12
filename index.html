@@ -30,10 +30,15 @@
             <h1>Trouvez votre Hébergements pour des vacances de rêve</h1>
              <p>En plein centre ville ou en pleine nature</p>
              <div class="form_recherche">
+                 
                 <form action="submit" method="POST" class="rechercher">
                     <i class="fas fa-map-marker-alt"></i><input class="input_recherche" type="text" name="recherche" value="Marseille, France">
-                    <input class=submit_recherche type="button" value="Rechercher">
+                    <label for="input_recherche" >
+                    <input id ="input_recherche" class=submit_recherche type="button" value="Rechercher">
+                    </label>
+                
                 </form>
+                    
             </div>
         </div>
         <div id="filtres">
@@ -158,7 +163,7 @@
                     
 
             </div>
-           <div><h4>Afficher plus</h4></div>
+           <div><p id="afficher__plus--text">Afficher plus</p></div>
         </article>
         <div class="tendances">
             <h2 id="titre_tendances">Les plus populaires</h2>          
