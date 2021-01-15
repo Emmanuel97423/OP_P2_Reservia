@@ -194,14 +194,19 @@ padding-top: 1em;
         padding-bottom: 1em;
     }
 }
+#top_menu a:hover{
+    border-top: 10px solid #0065FC;
+    padding-top: 1.4em;
+}
 
 @media all  and (max-width: 1024px) {
     #top_menu a:hover{
         border-bottom: 2px solid #0065FC;
         padding-bottom: 1em;
+        border-top: 0
     }
     #li--inscription a:hover{
-     
+        border-top: 0;
         border-bottom:0px;
     }
 
