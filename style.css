@@ -176,7 +176,8 @@ padding-top: 1em;
 }
 #top_menu a {    
     text-decoration: none; 
-    padding-top: 1.3em;    
+    padding-top: 1.3em;
+       
 }
 
 
@@ -193,13 +194,20 @@ padding-top: 1em;
         padding-bottom: 1em;
     }
 }
-#top_menu a:hover{
-    border-top: 10px solid #0065FC;
-}
+
 @media all  and (max-width: 1024px) {
     #top_menu a:hover{
-        border-bottom: 10px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 1em;
     }
+    #li--inscription a:hover{
+     
+        border-bottom:0px;
+    }
+
+   
+
+
 }
 
 #recherche p {
@@ -655,10 +663,7 @@ footer li {
          text-decoration: none;
          
     } 
-    #top_menu a:hover {
-        color: #0065FC;
-        border: none;
-    }  
+ 
     .line {
 
         border-bottom:2px solid #F2F2F2;
