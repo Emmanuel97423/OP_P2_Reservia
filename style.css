@@ -171,7 +171,7 @@ padding-top: 1em;
 #top_menu li {
     margin-right: 1em;    
 }
-.inscription {
+#inscription {
     color: #0065FC;
 }
 #top_menu a {    
@@ -211,6 +211,7 @@ padding-top: 1em;
 /*---------------------------------------------header recherche---------------------------*/
 
 #recherche {
+    width:95%;
     margin-top: 2em;
 }
 .submit_recherche {
@@ -311,7 +312,7 @@ section h2 {
 
 section img {
     width: 100%;
-    height: 175px;   
+  
     border-radius: 20px;
     object-fit: cover;
 }
@@ -449,7 +450,7 @@ article h3 {
     font-weight: normal;
 }
 #titre_tendances {
-    width: 100%;
+    width: 90%; 
     display:flex;
     flex-direction: row;
     gap: 0 20px;;
@@ -457,12 +458,6 @@ article h3 {
 #titre_tendances > i {
     display:none;
 }
-
-
-
-
-
-
 
 /*-----------------------------------Acitivé à Marseille GRID------------------------------------*/
 
@@ -614,10 +609,8 @@ footer {
     margin-top: 3em;
     display: flex;
     flex-direction: row;
-
     background-color:#F2F2F2;
-    gap: 0 25%;
-   
+    gap: 0 25%;  
    }
 footer a {
     color: black;
@@ -633,27 +626,38 @@ footer li {
 
 /*----------------------------------------Responsive mobile-------------------------------------*/
 
-@media all  and (max-width: 812px) {
-    /*#bloc_page> header, #bloc_page> section, #bloc_page> aside {
-        margin: 1em;
-    }
-    #bloc_page> section { 
-        margin: 0; 
-    }*/
+@media all  and (max-width: 1024px) {
     #top_menu {
-        display: flex;        
+        display:grid;
     }
-    #top_menu ul{
-        flex-direction: column-reverse;
-        flex-wrap: wrap ;
+    #top_menu ul {
+        margin: 10px 0 0 0;
+        display: grid;
+        grid-template-columns: 100px 75px auto 100px;
+        gap: 20px 30px;
     }
+    #link--hebergement {
+        grid-column-start: 1;
+        grid-column-end:2;
+    }
+    #link--activite {
+        grid-column-start: 2;
+        grid-column-end:  3;
+    }
+    #li--inscription {
+        grid-column-start: 4;
+        grid-column-end:  5;
+        justify-self:start;
+        align-self: start;
+    }
+
     #top_menu a {
          text-decoration: none;
+         
     } 
     #top_menu a:hover {
         color: #0065FC;
-        border-bottom: none;
-        border: 0;
+        border: none;
     }  
     .line {
 
@@ -856,7 +860,7 @@ footer li {
    .input_recherche { 
        width: 46%;
    }
-   .inscription { 
+   #inscription { 
        margin-right: 1.5em;
    }
    .footer { 
