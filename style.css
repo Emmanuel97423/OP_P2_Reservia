@@ -173,6 +173,7 @@ padding-top: 1em;
 }
 #inscription {
     color: #0065FC;
+    
 }
 #top_menu a {    
     text-decoration: none; 
@@ -194,19 +195,22 @@ padding-top: 1em;
         padding-bottom: 1em;
     }
 }
-#top_menu a:hover{
+#top_menu a:hover {
     border-top: 10px solid #0065FC;
     padding-top: 1.4em;
 }
+#li--inscription a:hover {
+    border-top:0;    
+    border-bottom:0px;
+}
 
 @media all  and (max-width: 1024px) {
-    #top_menu a:hover{
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 1em;
+    #top_menu a:hover {
+
         border-top: 0
     }
-    #li--inscription a:hover{
-        border-top: 0;
+    #li--inscription a:hover {
+        
         border-bottom:0px;
     }
 
@@ -646,21 +650,24 @@ footer li {
     #top_menu ul {
         margin: 10px 0 0 0;
         display: grid;
-        grid-template-columns: 100px 75px auto 100px;
+        grid-template-columns: 15px 115px auto 30px;
         gap: 20px 30px;
     }
     #link--hebergement {
-        grid-column-start: 1;
-        grid-column-end:2;
+        grid-column-start: 2;
+        grid-column-end:3;
+      
     }
     #link--activite {
-        grid-column-start: 2;
-        grid-column-end:  3;
+        grid-column-start: 3;
+        grid-column-end:  4;
+        justify-self:end;
+        align-self: end;
     }
     #li--inscription {
         grid-column-start: 4;
         grid-column-end:  5;
-        justify-self:start;
+        justify-self:end;
         align-self: start;
     }
 
