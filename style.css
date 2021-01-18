@@ -664,6 +664,7 @@ footer li {
         grid-column-end:  4;
         justify-self:end;
         align-self: end;
+        margin: 45px 0 0 0;
     }
     #li--inscription {
         grid-column-start: 4;
