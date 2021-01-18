@@ -650,7 +650,7 @@ footer li {
     #top_menu ul {
         margin: 10px 0 0 0;
         display: grid;
-        grid-template-columns: 15px 115px auto 30px;
+        grid-template-columns: 15px 115px auto 15px;
         gap: 20px 30px;
     }
     #link--hebergement {
