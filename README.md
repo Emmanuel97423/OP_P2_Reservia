@@ -1,2 +1,3 @@
-# OP_P2_Reservia
-Projet 02
+# # Reservia Marseille
+Intégration maquette en HTML et CSS
+validateur W3C HTML et CSS `OK`
